@@ -4,10 +4,17 @@
     padding: 0;
     font-size: 24px;
 }
+a{
+    text-decoration: none;
+    color:black;
+}
+
+a:hover{
+    cursor: pointer;
+}
 
 header{
-    background-color: #ADD8E6;
-    padding-bottom: 5px;
+    background-color: #255ee9;
 }
 .old-header{
     padding: 10px 20%;
@@ -15,63 +22,88 @@ header{
 .container{
     display: flex;
     margin:0 auto;
-
 }
-
-div{
-    /* border-style: dotted; */
-}
-
-nav{
-    /* border-style: dotted; */
-    flex-grow: 3;
-    text-align: center;
+.button {
+    border-radius: 50px;
+    line-height: 42px;
+    padding: 5px 15px;
 }
 
 .top-header{
-    background-color: #daa520;
-    /* border-style: dashed; */
+    background-color: #255ee9;
     width: 100%;
-    
-    
+    justify-content: space-between;    
 }
 
 .logo{
-    /* align-self: flex-start; */
-    flex-grow: 1;
-    border-style: dashed;
     padding: 5px;
-    
+}
+
+.logo img{
+    height: 100%;
 }
 
 nav li{
     display: inline-block;
-    
+    color: whitesmoke;
+    margin: 0 15px;
 }
 
 nav ul{
     list-style: none;
-    padding: 5px;
-    border-style: dashed;
+    padding: 15px;
+    
 }
 
 .login{
-    flex-grow: 1;  
-    border-style: dashed;
-    text-align: right;
-    padding: 5px;
+    background-color: whitesmoke;
 }
 
 .jumbotron{
     background-color: #00008b;
-    padding: 30px 30%;
+    padding: 90px 30%;
+    background-image: url(./img/jumbo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: whitesmoke;
+    line-height: 1.5em;
+    align-items: center;
+}
+
+.jumbotron-content{
+    align-self: center;
+}
+
+.jumbotron h1{
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 20px;    
+}
+
+.jumbotron .button{
+    display: inline-block;
+    margin: 15px;
+}
+
+.jumbo-buttons{
+    padding: 40px 0;
+}
+
+.jumbotron .jumbo-button1{
+    background-color: whitesmoke;
+}
+
+.jumbotron .jumbo-button2{
+    background-color: #23272a;
+}
+.jumbotron .jumbo-button2 a{
+    color:whitesmoke
 }
 
 .central{
-    height: 300px;
     width: 800px;
     margin: auto;
-    background-color: #ee82ee;
 }
 
 .row2, .row4{
@@ -83,12 +115,6 @@ nav ul{
     background-color: #d3d3d3;
     padding: 30px 20%;
 }
-
-
-.item{
-    height: 500px; 
-    border-style: dashed;
-    }
 
 .big{
     background-color: #1e90ff;
@@ -151,6 +177,3 @@ footer{
     border-style: dashed;
 }
 
-.button{
-    padding: 10px;
-}
