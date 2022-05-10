@@ -146,16 +146,19 @@ nav ul{
     line-height: 1.5em;
     margin-top: 30px;
 }
+.call-to-action{
+    position:relative;
+}
+.sparkles{
+    position: absolute;
+    top: 0; 
+}
 
 .lower{
     padding-top: 80px;
     flex-flow: column nowrap;
     align-items: center;
 }
-/* .call-to-action{
-    flex-flow: column nowrap;
-    align-items: center;
-} */
 
 
 .lower-button{
