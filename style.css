@@ -15,8 +15,8 @@ a:hover{
     cursor: pointer;
 }
 
-h2{
-    font-size: 40px;
+h3{
+    font-size: 35px;
 }
 
 h4{
@@ -186,7 +186,7 @@ footer ul{
     color: #7289da;
 }
 .foot1{
-    padding: 10px 20% 20px;
+    padding: 30px 20% 20px;
 }
 .lfooter{
     flex-basis: 20%;
@@ -225,14 +225,19 @@ footer ul{
 
 .footer-content{
     justify-content: space-between;
-    background-color: #7fffd4;
-    padding: 10px 0
+    padding: 10px 0;
+    border-top: #7289da solid 1px;
 }
 
 .logo2 {
     padding: 10px;
 }
+.logo2 img{
+    /* height: 15px; */
+    
+}
 .bottom-content{
-    background-color: #ffb6c1;
+    background-color: #7289da;
+    color: whitesmoke;
 }
 
