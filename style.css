@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-size: 24px;
+    font-family: sans-serif;
 }
 a{
     text-decoration: none;
@@ -61,7 +62,7 @@ nav ul{
 
 .jumbotron{
     background-color: #00008b;
-    padding: 90px 30%;
+    padding: 180px 30%;
     background-image: url(./img/jumbo.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -100,7 +101,7 @@ nav ul{
 .jumbotron .jumbo-button2 a{
     color:whitesmoke
 }
-
+/*  MAIN  */
 .central{
     width: 800px;
     margin: auto;
@@ -109,21 +110,31 @@ nav ul{
 .row2, .row4{
     background-color: whitesmoke;
     padding: 30px 20%;
+    padding-top: 30px;
 }
 
 .row3, .row5{
-    background-color: #d3d3d3;
+    background-color: #f6f6f6;
     padding: 30px 20%;
+    padding-top: 30px;
 }
 
 .big{
-    background-color: #1e90ff;
     flex-basis: 60%;
 }
 
 .small{
-    background-color: #ffc0cb;
     flex-basis: 40%;
+    margin-top: 30px;
+}
+
+.small h2{
+    font-size: 48px;
+    line-height: 1.5em;
+}
+
+.content-small{
+    line-height: 1.5em;
 }
 
 .ultra{
