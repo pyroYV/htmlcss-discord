@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+}
+
+header{
+    background-color: #ADD8E6;
+    padding-bottom: 5px;
+}
+.old-header{
+    padding: 10px 20%;
+}
+.container{
+    display: flex;
+    margin:0 auto;
+
+}
+
+div{
+    /* border-style: dotted; */
+}
+
+nav{
+    /* border-style: dotted; */
+    flex-grow: 3;
+    text-align: center;
+}
+
+.top-header{
+    background-color: #daa520;
+    /* border-style: dashed; */
+    width: 100%;
+    
+    
+}
+
+.logo{
+    /* align-self: flex-start; */
+    flex-grow: 1;
+    border-style: dashed;
+    padding: 5px;
+    
+}
+
+nav li{
+    display: inline-block;
+    
+}
+
+nav ul{
+    list-style: none;
+    padding: 5px;
+    border-style: dashed;
+}
+
+.login{
+    flex-grow: 1;  
+    border-style: dashed;
+    text-align: right;
+    padding: 5px;
+}
+
+.jumbotron{
+    background-color: #00008b;
+    padding: 30px 30%;
+}
+
+.central{
+    height: 300px;
+    width: 800px;
+    margin: auto;
+    background-color: #ee82ee;
+}
+
+.row2, .row4{
+    background-color: whitesmoke;
+    padding: 30px 20%;
+}
+
+.row3, .row5{
+    background-color: #d3d3d3;
+    padding: 30px 20%;
+}
+
+
+.item{
+    height: 500px; 
+    border-style: dashed;
+    }
+
+.big{
+    background-color: #1e90ff;
+    flex-basis: 60%;
+}
+
+.small{
+    background-color: #ffc0cb;
+    flex-basis: 40%;
+}
+
+.ultra{
+    background-color: #228b22;
+    height: 600px;
+    width: 100%;
+}
+
+footer{
+    background-color: #23272a
+}
+
+.foot1{
+    padding: 10px 20% 20px;
+}
+.item-footer{
+    /* height: 600px; */
+    border-style: dashed;
+}
+.special{
+    background-color: #f08080;
+    flex-basis: 30%;
+}
+.super{
+    flex-basis: 70%;
+}
+.inside{
+    background-color: #20b2aa;
+    flex-basis: 25%;
+    border-style: dashed;
+    border-color: whitesmoke;
+}
+
+.footer2{
+    border-top: 2px;
+    border-color:whitesmoke;
+    padding:20px 20% 0 20%;
+}
+
+.footer-content{
+    justify-content: space-between;
+    background-color: #7fffd4;
+    padding: 10px 0
+}
+
+.logo2 {
+    padding: 10px;
+}
+.bottom-content{
+    background-color: #ffb6c1;
+    border-style: dashed;
+}
+
+.button{
+    padding: 10px;
+}
