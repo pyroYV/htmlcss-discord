@@ -4,6 +4,7 @@
     padding: 0;
     font-size: 24px;
     font-family: sans-serif;
+
 }
 a{
     text-decoration: none;
@@ -135,12 +136,35 @@ nav ul{
 
 .content-small{
     line-height: 1.5em;
+    margin-top: 30px;
 }
 
-.ultra{
-    background-color: #228b22;
-    height: 600px;
-    width: 100%;
+.lower{
+    padding-top: 80px;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+/* .call-to-action{
+    flex-flow: column nowrap;
+    align-items: center;
+} */
+
+.lower h2{
+    font-size: 40px;
+}
+
+.lower h4{
+    font-size: 30px;
+}
+.lower-button{
+    background-color: #7289da;
+    text-align: center;
+    display: inline-block;
+    margin: 50px 0 0 150px;
+    /* margin-left: 150px;
+} */
+.lower-button a{
+    color:whitesmoke;
 }
 
 footer{
